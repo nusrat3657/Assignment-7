@@ -3,14 +3,11 @@ import { AiOutlineFire } from "react-icons/ai";
 import { useEffect, useState } from "react";
 
 
-const Card = ({ card }) => {
+const Card = ({ card, handleAddToCook }) => {
     console.log(card);
     const { name, description, image, ingredients, calories, prepTime } = card;
 
     
-
-    
-
     return (
         <div className="lexend w-[405px] bg-base-100 border-2 rounded-xl p-6">
             <figure className="">
@@ -35,7 +32,7 @@ const Card = ({ card }) => {
                     <p className="flex gap-2"><AiOutlineFire className="mt-1"> </AiOutlineFire> {calories} calories</p>
                 </div>
                 <div className="mt-6">
-                    <button className="btn bg-[#0BE58A] py-3 px-6 rounded-full text-black font-bold hover:bg-gray-300">Want to Cook</button>
+                    <button onClick={() => handleAddToCook(card)} className="btn bg-[#0BE58A] py-3 px-6 rounded-full text-black font-bold hover:bg-gray-300">Want to Cook</button>
                 </div>
             </div>
         </div>

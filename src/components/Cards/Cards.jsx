@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 
-const Cards = () => {
+const Cards = ({handleAddToCook}) => {
     const [recipes, setRecipes] = useState([]);
 
     // const [ingredient, setIngredient] = useState([]);
@@ -22,6 +22,7 @@ const Cards = () => {
                     recipes.map(recipe => <Card 
                         key={recipe.id} 
                         card={recipe}
+                        handleAddToCook={handleAddToCook}
                     ></Card>)
                 }
             </div>
