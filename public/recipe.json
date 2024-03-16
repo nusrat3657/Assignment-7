@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Pasta Spaghetti",
+        "description": "Classic Italian pasta dish with creamy egg sauce and crispy pancetta with Shrimps-Sauce.",
+        "image": "https://i.ibb.co/k3yZWjf/pasta-spaghetti-with-shrimps-sauce.jpg",
+        "prepTime": "30 minutes",
+        "calories": 450,
+        "ingredients": [
+            "200g spaghetti",
+            "2 eggs",
+            "100g pancetta",
+            "50g grated Parmesan cheese",
+            "Salt and pepper to taste"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Penne Pasta",
+        "description": "Classic penne-pasta-tomato-sauce-salsa-with-chicken-tomatoes-wooden-table",
+        "image": "https://i.ibb.co/Qk4DqgV/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg",
+        "prepTime": "45 minutes",
+        "calories": 550,
+        "ingredients": [
+            "500gm beef",
+            "1 cup breadcrumbs",
+            "1 cup marinara sauce",
+            "1 cup shredded mozzarella cheese",
+            "1/4 cup grated Parmesan cheese",
+            "1 egg",
+            "Salt and pepper to taste"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Fried Chicken Wings",
+        "description": "Quick chicken wings with-chicken-sauce.",
+        "image": "https://i.ibb.co/QncTG6t/fried-chicken-wings-with-fish-sauce-sweet-fish-sauce.jpg",
+        "prepTime": "25 minutes",
+        "calories": 300,
+        "ingredients": [
+            "6 pieces chicken wings",
+            "1 tablespoon vegetable oil",
+            "2 cloves garlic, minced",
+            "1 tablespoon soy sauce",
+            "1 teaspoon sesame oil",
+            "Salt and pepper to taste"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Crispy Fried Chicken",
+        "description": "Flavorful crispy fried chicken plate with salad carrot a lemon-garlic marinade.",
+        "image": "https://i.ibb.co/jkmhQqg/crispy-fried-chicken-plate-with-salad-carrot.jpg",
+        "prepTime": "20 minutes",
+        "calories": 400,
+        "ingredients": [
+            "4 chicken leg pieces",
+            "2 tablespoons olive oil",
+            "2 tablespoons lemon juice",
+            "2 cloves garlic, minced",
+            "1 teaspoon dried oregano",
+            "Salt and pepper to taste"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Chicken Skewers",
+        "description": "Classic chicken-skewers-with-slices-sweet-peppers-dill, Parmesan cheese, and croutons.",
+        "image": "https://i.ibb.co/Bz69Tfj/chicken-skewers-with-slices-sweet-peppers-dill.jpg",
+        "prepTime": "15 minutes",
+        "calories": 250,
+        "ingredients": [
+            "1 head romaine lettuce, chopped",
+            "1/2 cup Caesar dressing",
+            "1/4 cup grated Parmesan cheese",
+            "1 cup croutons",
+            "Salt and pepper to taste"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Beef Tacos",
+        "description": "Mexican-inspired tacos with seasoned ground beef and your favorite toppings.",
+        "image": "https://i.ibb.co/LChvHT9/mexican-tacos-with-beef-tomato-sauce-salsa.jpg",
+        "prepTime": "35 minutes",
+        "calories": 500,
+        "ingredients": [
+            "1 lb ground beef",
+            "1 packet taco seasoning",
+            "1/2 cup water",
+            "8 taco shells",
+            "1 cup shredded lettuce",
+            "1 cup diced tomatoes",
+            "1/2 cup shredded cheddar cheese",
+            "1/4 cup diced onions",
+            "1/4 cup chopped cilantro",
+            "1/4 cup sour cream (optional)"
+        ]
+    }
+]

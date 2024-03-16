@@ -9,8 +9,8 @@ const Banner = () => {
                     <h1 className="mb-10 text-5xl font-bold w-[897px] -ml-[220px] text-white">Discover an exceptional cooking class tailored for you!</h1>
                     <p className="mb-10 w-[900px] -ml-[220px]">Chef's Table brings you exciting 20 different cuisines under one roof to satisfy all your cravings. Try something new everyday from our diverse cuisines and get a fresh start everyday!</p>
                     <div className='space-x-10'>
-                    <button className="bg-[#0BE58A] py-3 px-6 rounded-full text-black font-bold hover:bg-gray-300">Explore Now</button>
-                    <button className="py-3 px-6 rounded-full border-white border-2 font-bold hover:bg-gray-400">Our Feedback</button>
+                    <button className="bg-[#0BE58A] py-3 px-6 rounded-full text-black font-bold hover:bg-gray-300 btn">Explore Now</button>
+                    <button className="py-3 px-6 rounded-full border-white border-2 font-bold hover:bg-gray-400 ">Our Feedback</button>
                     </div>
                 </div>
             </div>
