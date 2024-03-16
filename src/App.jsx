@@ -5,6 +5,8 @@ import Cards from './components/Cards/Cards'
 import Cooking from './components/Cooking/Cooking'
 import Navbar from './components/Navbar/Navbar'
 import Title from './components/Title/Title'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [cooking, setCooking] = useState([]);
@@ -21,7 +23,7 @@ function App() {
       setCooking(newCooking)
     }
     else{
-      alert('already exist')
+      toast('Already exist');
     }
   }
 
@@ -33,6 +35,7 @@ function App() {
       <div className='md:flex mx-28'>
         <Cards handleAddToCook={handleAddToCook}></Cards>
         <Cooking cooking={cooking}></Cooking>
+        <ToastContainer />
       </div>
     </>
   )
