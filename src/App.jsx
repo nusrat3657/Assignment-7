@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [cooking, setCooking] = useState([]);
   
-  const [currentCooking, setCurrentCooking] =useState([]);
+  const [newCurrentCooking, setCurrentCooking] =useState([]);
 
   const handleAddToCook = card => {
   const isExist = cooking.find(item => item.id === card.id);
@@ -24,10 +24,8 @@ function App() {
   }
 
   const handleAddToCurrentCooking = (id) =>{
-    // const newCurrentCooking =[...currentCooking, currentCook];
-    // setCurrentCooking(newCurrentCooking);
-    const newCurrentCooking = currentCooking.filter(item => item.id !== id);
-    console.log(newCurrentCooking);
+    const newCurrentCooking = cooking.find(item => item.id !== id.id);
+    setCurrentCooking(prv=> [...prv, newCurrentCooking]);
   }
 
   return (
@@ -86,20 +84,22 @@ function App() {
                     </thead>
                 </table>
             </div>
-            {
-                currentCooking.map(currentCook => <div className="overflow-x-auto">
+            <div className="overflow-x-auto">
                 <table className="table">
                     <tbody>
+            {
+                newCurrentCooking.map(id => (
                         <tr>
                             <th></th>
-                            <td>{currentCook.name}</td>
-                            <td>{currentCook.prepTime}</td>
-                            <td>{currentCook.calories}</td>
+                            <td>{id.name}</td>
+                            <td>{id.prepTime}</td>
+                            <td>{id.calories}</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>)
+                    ))
             }
+            </tbody>
+                </table>
+            </div>
         </div>
         <ToastContainer />
       </div>
