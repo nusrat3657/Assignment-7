@@ -18,7 +18,7 @@ function App() {
       setCooking([...cooking, card])
     }
     else {
-      toast('Already exist');
+      toast('This card has been already exist');
     }
   }
 
