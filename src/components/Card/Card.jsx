@@ -18,14 +18,15 @@ const Card = ({ card, handleAddToCook }) => {
                 <p className="mb-5">{description}</p>
                 <hr className="mb-4" />
                 {/* <h4>Ingredients:</h4> */}
-                <ul><span className="font-semibold">Ingredients: {ingredients.length}</span>
-                    <li>
+                <span className="font-semibold">Ingredients: {ingredients.length}</span>
                         {
-                            ingredients.map(ig => console.log(ig))
+                            ingredients.map(ig => (
+                                
+                                    <li className="mt-2">{ig}</li>
+                                
+                            ))
                         }
-                        
-                    </li>
-                </ul>
+                
                 <hr className="my-4" />
                 <div className="flex gap-10">
                     <p className="flex gap-2"><HiOutlineClock className="mt-1"></HiOutlineClock> {prepTime}</p>
