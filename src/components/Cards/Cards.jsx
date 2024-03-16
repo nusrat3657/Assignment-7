@@ -16,7 +16,7 @@ const Cards = ({handleAddToCook}) => {
 
 
     return (
-            <div className="w-2/3 grid grid-cols-2 gap-5 lexend">
+            <div className="w-2/3 grid grid-cols-2 gap-5 lexend mb-10">
                 {/* <h1 className="text-4xl">Recipes: {recipes.length}</h1> */}
                 {
                     recipes.map(recipe => <Card 

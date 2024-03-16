@@ -36,7 +36,7 @@ function App() {
       <Title></Title>
       <div className='md:flex mx-28'>
         <Cards handleAddToCook={handleAddToCook}></Cards>
-        <div className=" lexend ml-4 border-2 w-[450px] p-5 rounded-xl">
+        <div className=" lexend ml-4 border-2 w-[450px] p-5 rounded-xl mb-10">
           <h3 className="text-2xl font-bold text-center
             ">Want to cook: {cooking.length}</h3>
           <hr className="ml-14 my-5 w-[70%]" />
